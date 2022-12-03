@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.sobre.SobreFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.alterar.AlteraFragment">
+
+        <TextView
+            android:id="@+id/textViweTituloSobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobre Nós"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.103" />
+
+
+
+        <TextView
+            android:id="@+id/textViewSobreNos"
+            android:layout_width="359dp"
+            android:layout_height="444dp"
+            android:text="O Restaurante Sal na Brasa Macaíba está localizada na Av. Jundiaí e conta com rodízio completo com mais de 25 tipos de cortes de carnes entre suínos, bovinos, cordeiros e aves que impressionam pela diversidade e requinte, onde você encontrará além de frios e queijos finos, inúmeras opções de saladas e acompanhamentos, além de recheauds repletos de frutos do mar e uma variedade de pratos quentes e guarnições, também temos pratos típicos de diversas regiões do Brasil."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViweTituloSobre"
+            app:layout_constraintVertical_bias="0.172" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="243dp"
+            android:layout_height="146dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.904"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.972"
+            app:srcCompat="@drawable/restaurante" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="149dp"
+            android:layout_height="102dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSobreNos"
+            app:srcCompat="@drawable/chefe" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
